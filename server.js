@@ -387,7 +387,7 @@ app.post('/api/accounts/:id/scan', async (req, res) => {
 // ─────────────────────────────────────────────
 // START
 // ─────────────────────────────────────────────
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`ForexBot server running on port ${PORT}`);
   console.log(`MetaAPI token loaded: ${META_API_TOKEN.substring(0, 20)}...`);
